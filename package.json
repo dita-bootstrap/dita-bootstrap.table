@@ -33,7 +33,7 @@
     "@prettier/plugin-xml": "3.4.2",
     "lefthook": "^2.1.12",
     "prettier": "3.9.6",
-    "stylelint": "^16.26.1",
+    "stylelint": "^17.15.0",
     "stylelint-config-twbs-bootstrap": "^16.1.0"
   }
 }
