@@ -26,19 +26,19 @@
       <xsl:next-match/>
       <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.25.0/dist/bootstrap-table.min.css"
-      integrity="sha384-0EBL7a+6RJx/ZpOVikVEqEKhRM4zT0bEkA/YH7sUzCE9fUlLarrO1XjqHWnJ3Asd"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-table@1.27.3/dist/bootstrap-table.min.css"
+      integrity="sha384-ITZ/KDfTyAobiSNOWQXtckidYWnjwp8fYQqwl+M6568KJKzh4PDqusbhoyr7wT4D"
       crossorigin="anonymous"
     />
       <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.25.0/dist/bootstrap-table.min.js"
-      integrity="sha384-90CQ8fUpHseHAv+BqZqbTtB57S75pQknmB29mVJRZeyODVs2vt1OHCAgb1yuIKfG"
+      src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.27.3/dist/bootstrap-table.min.js"
+      integrity="sha384-PCXzD9+BIZBoxHYpm07NqcdbtJylL7UwcCMs2OonBgci8qeEZq7KXZ3obEHwrwZM"
       crossorigin="anonymous"
     />
     <xsl:if test="matches($defaultLanguage,$BOOTSTRAP_TABLE_SUPPORTED_LANGUAGE)">
       <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.25.0/dist/bootstrap-table-locale-all.min.js"
-        integrity="sha384-w+UjSaOhp1NzbrpQ/OkXX4VD23JtOAMNTn7nk1b/+bqADVF9tOGjuHQw4ytP6ayF"
+        src="https://cdn.jsdelivr.net/npm/bootstrap-table@1.27.3/dist/bootstrap-table-locale-all.min.js"
+        integrity="sha384-ZEVxFFy97dV5j5wisZ74aXKOT6uci5AKM2Ud4M9xAs2K51KOh/4QW7iti/Ll8Cxz"
         crossorigin="anonymous"
       />
     </xsl:if>
